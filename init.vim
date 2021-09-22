@@ -8,7 +8,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'arcticicestudio/nord-vim'
     Plug 'joshdick/onedark.vim'
-    Plug 'morhetz/gruvbox'
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
     Plug 'mhinz/vim-startify'
@@ -21,7 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hrsh7th/vim-vsnip'
     Plug 'hrsh7th/vim-vsnip-integ'
     Plug 'hashivim/vim-terraform'
-    Plug 'projekt0n/github-nvim-theme'
     Plug 'kyazdani42/nvim-web-devicons' " for file icons
     Plug 'kyazdani42/nvim-tree.lua'
     Plug 'hoob3rt/lualine.nvim'
@@ -37,7 +35,7 @@ let g:mapleader = ' '
 
 syntax enable                           " Enables syntax highlighing
 set termguicolors
-colorscheme github_dark_default
+colorscheme onedark
 highlight Comment cterm=italic gui=italic
 
 set backspace=indent,eol,start          " Make backspace behave like every other editor.
@@ -95,8 +93,6 @@ nnoremap <silent> <C-P> <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 
-" Treesitter
-lua require'nvim-treesitter.configs'.setup { indent = { enable = true }, highlight = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
 
 " AutoComment
 autocmd FileType php setlocal commentstring=//\ %s
@@ -105,3 +101,4 @@ source $HOME/.config/nvim/nvimtree.vim
 source $HOME/.config/nvim/lsp-config.vim
 luafile ~/.config/nvim/lsp.lua
 luafile ~/.config/nvim/compe-config.lua
+luafile ~/.config/nvim/treesitter.lua

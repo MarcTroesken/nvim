@@ -6,6 +6,6 @@ require'lspconfig'.terraformls.setup{}
 
 require('lualine').setup {
   options = {
-    theme = 'github',
+    theme = 'onedark',
   }
 }
