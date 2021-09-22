@@ -25,6 +25,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-web-devicons' " for file icons
     Plug 'kyazdani42/nvim-tree.lua'
     Plug 'hoob3rt/lualine.nvim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
 
 call plug#end()
 
