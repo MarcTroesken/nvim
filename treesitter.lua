@@ -14,7 +14,8 @@ require'nvim-treesitter.configs'.setup {
     "html",
     "scss",
     "css",
-    "bash"
+    "bash",
+    "hcl"
   },
   incremental_selection = {
     enable = true
