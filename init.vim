@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hoob3rt/lualine.nvim'
     Plug 'pangloss/vim-javascript'
     Plug 'mxw/vim-jsx'
+    Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 call plug#end()
 
