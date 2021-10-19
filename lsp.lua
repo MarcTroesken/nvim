@@ -8,7 +8,7 @@ require'lspconfig'.vuels.setup{}
 
 require('lualine').setup {
   options = {
-    theme = 'gruvbox',
+    theme = 'dracula',
   }
 }
 
