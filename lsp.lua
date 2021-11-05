@@ -3,12 +3,13 @@ require'lspconfig'.tsserver.setup{}
 require'lspconfig'.intelephense.setup{}
 require'lspconfig'.bashls.setup{}
 require'lspconfig'.terraformls.setup{}
+require'lspconfig'.tflint.setup{}
 require'lspconfig'.tailwindcss.setup{}
 require'lspconfig'.vuels.setup{}
 
 require('lualine').setup {
   options = {
-    theme = 'dracula',
+    theme = 'onedark',
   }
 }
 
@@ -60,7 +61,7 @@ require'nvim-tree'.setup {
 
   view = {
     -- width of the window, can be either a number (columns) or a string in `%`, for left or right side placement
-    width = 40,
+    width = 45,
     -- height of the window, can be either a number (columns) or a string in `%`, for top or bottom side placement
     height = 30,
     -- side of the tree, can be one of 'left' | 'right' | 'top' | 'bottom'

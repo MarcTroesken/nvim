@@ -38,8 +38,7 @@ let g:mapleader = ' '
 
 syntax enable                           " Enables syntax highlighing
 set termguicolors
-colorscheme dracula
-"let g:gruvbox_contrast_dark='hard'
+colorscheme onedark
 highlight Comment cterm=italic gui=italic
 
 set backspace=indent,eol,start          " Make backspace behave like every other editor.
@@ -106,3 +105,8 @@ source $HOME/.config/nvim/lsp-config.vim
 luafile ~/.config/nvim/lsp.lua
 luafile ~/.config/nvim/compe-config.lua
 luafile ~/.config/nvim/treesitter.lua
+
+highlight Normal guibg=none
+highlight NonText guibg=none
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
