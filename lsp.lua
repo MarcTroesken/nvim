@@ -9,7 +9,7 @@ require'lspconfig'.vuels.setup{}
 
 require('lualine').setup {
   options = {
-    theme = 'onedark',
+    theme = 'dracula',
   }
 }
 
@@ -38,8 +38,6 @@ require'nvim-tree'.setup {
   hijack_cursor       = false,
   -- updates the root directory of the tree on `DirChanged` (when your run `:cd` usually)
   update_cwd          = true,
-  -- show lsp diagnostics in the signcolumn
-  lsp_diagnostics     = true,
   -- update the focused file on `BufEnter`, un-collapses the folders recursively until it finds the file
   update_focused_file = {
     -- enables the feature
@@ -58,7 +56,10 @@ require'nvim-tree'.setup {
     -- the command arguments as a list
     args = {}
   },
-
+  filters = {
+    dotfiles = false,
+    custom = {'.git', '.cache', 'node_modules'}
+  },
   view = {
     -- width of the window, can be either a number (columns) or a string in `%`, for left or right side placement
     width = 45,
