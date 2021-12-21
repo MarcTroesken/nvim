@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'connorholyday/vim-snazzy'
     Plug 'joshdick/onedark.vim'
     Plug 'dracula/vim', { 'as': 'dracula' }
+    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'gruvbox-community/gruvbox'
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
@@ -39,7 +40,9 @@ let g:mapleader = ' '
 
 syntax enable                           " Enables syntax highlighing
 set termguicolors
-colorscheme snazzy
+colorscheme tokyonight
+let g:tokyonight_style = "storm"
+let g:tokyonight_italic_functions = 1
 highlight Comment cterm=italic gui=italic
 
 set backspace=indent,eol,start          " Make backspace behave like every other editor.

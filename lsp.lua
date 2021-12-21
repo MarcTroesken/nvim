@@ -9,7 +9,7 @@ require'lspconfig'.vuels.setup{}
 
 require('lualine').setup {
   options = {
-    theme = 'dracula',
+    theme = 'tokyonight'
   }
 }
 
