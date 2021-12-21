@@ -10,3 +10,4 @@ nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
 autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
 autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
 autocmd BufWritePre *.tf lua vim.lsp.buf.formatting_sync(nil, 100)
+autocmd BufWritePre *.hcl lua vim.lsp.buf.formatting_sync(nil, 100)
