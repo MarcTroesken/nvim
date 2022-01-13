@@ -12,6 +12,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'gruvbox-community/gruvbox'
+    Plug 'windwp/nvim-autopairs'
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
     Plug 'mhinz/vim-startify'
