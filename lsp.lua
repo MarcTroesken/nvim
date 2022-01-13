@@ -13,6 +13,8 @@ require('lualine').setup {
   }
 }
 
+require('nvim-autopairs').setup{}
+
 -- following options are the default
 require'nvim-tree'.setup {
   -- disables netrw completely
