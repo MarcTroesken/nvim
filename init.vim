@@ -31,6 +31,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'pangloss/vim-javascript'
     Plug 'mxw/vim-jsx'
     Plug 'evanleck/vim-svelte', {'branch': 'main'}
+    Plug 'williamboman/nvim-lsp-installer'
 
 call plug#end()
 
