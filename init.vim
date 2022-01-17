@@ -44,7 +44,7 @@ let g:mapleader = ' '
 syntax enable                           " Enables syntax highlighing
 set termguicolors
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
+let g:gruvbox_contrast_dark = "medium"
 highlight Comment cterm=italic gui=italic
 
 set backspace=indent,eol,start          " Make backspace behave like every other editor.
