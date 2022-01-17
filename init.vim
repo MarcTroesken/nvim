@@ -12,6 +12,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dracula/vim', { 'as': 'dracula' }
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'gruvbox-community/gruvbox'
+
     Plug 'windwp/nvim-autopairs'
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
@@ -42,9 +43,8 @@ let g:mapleader = ' '
 
 syntax enable                           " Enables syntax highlighing
 set termguicolors
-colorscheme tokyonight
-let g:tokyonight_style = "storm"
-let g:tokyonight_italic_functions = 1
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
 highlight Comment cterm=italic gui=italic
 
 set backspace=indent,eol,start          " Make backspace behave like every other editor.
@@ -112,7 +112,7 @@ luafile ~/.config/nvim/lsp.lua
 luafile ~/.config/nvim/compe-config.lua
 luafile ~/.config/nvim/treesitter.lua
 
-highlight Normal guibg=none
-highlight NonText guibg=none
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
+"highlight Normal guibg=none
+"highlight NonText guibg=none
+"highlight Normal ctermbg=none
+"highlight NonText ctermbg=none
