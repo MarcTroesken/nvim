@@ -76,6 +76,7 @@ nnoremap <silent> gD <cmd>lua vim.lsp.buf.declaration()<CR>
 nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
 nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
 nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap <silent> ff <cmd>lua vim.lsp.buf.formatting()<CR>
 nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
 
 " auto-format
@@ -83,5 +84,4 @@ autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
 autocmd BufWritePre *.ts lua vim.lsp.buf.formatting_sync(nil, 100)
 autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
 autocmd BufWritePre *.tf lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.hcl lua vim.lsp.buf.formatting_sync(nil, 100)
 autocmd BufWritePre *.php lua vim.lsp.buf.formatting_sync(nil, 100)
