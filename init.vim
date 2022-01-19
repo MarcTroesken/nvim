@@ -112,6 +112,10 @@ luafile ~/.config/nvim/lsp.lua
 luafile ~/.config/nvim/compe-config.lua
 luafile ~/.config/nvim/treesitter.lua
 
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+set nofoldenable
+
 "highlight Normal guibg=none
 "highlight NonText guibg=none
 "highlight Normal ctermbg=none

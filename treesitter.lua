@@ -18,7 +18,6 @@ require'nvim-treesitter.configs'.setup {
     "hcl",
     "python",
     "vue",
-
   },
   incremental_selection = {
     enable = true
