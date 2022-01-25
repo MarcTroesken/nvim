@@ -7,11 +7,10 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'arcticicestudio/nord-vim'
-    Plug 'connorholyday/vim-snazzy'
     Plug 'joshdick/onedark.vim'
     Plug 'dracula/vim', { 'as': 'dracula' }
-    Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
     Plug 'gruvbox-community/gruvbox'
+    Plug 'EdenEast/nightfox.nvim'
 
     Plug 'windwp/nvim-autopairs'
     Plug 'tpope/vim-fugitive'
@@ -43,8 +42,8 @@ let g:mapleader = ' '
 
 syntax enable                           " Enables syntax highlighing
 set termguicolors
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = "medium"
+colorscheme nightfox
+" let g:gruvbox_contrast_dark = "medium"
 highlight Comment cterm=italic gui=italic
 
 set backspace=indent,eol,start          " Make backspace behave like every other editor.
