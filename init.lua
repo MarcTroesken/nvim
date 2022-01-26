@@ -7,5 +7,6 @@ require("colors-config.nightfox")
 require("nvim-tree-config")
 require("treesitter-config")
 require("cmp-config")
---> lsp modules
 require("lsp-config")
+require("gitsigns-config")
+require("gitblame-config")
