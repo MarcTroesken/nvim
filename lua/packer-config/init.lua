@@ -52,13 +52,14 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "nvim-lualine/lualine.nvim"
+  use "numToStr/Comment.nvim"
+  use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "onsails/lspkind-nvim" -- vscode-like pictograms for neovim lsp completion items
   use "hrsh7th/cmp-nvim-lsp" -- LSP source for nvim-cmp
 	use "saadparwaiz1/cmp_luasnip" -- Snippets source for nvim-cmp
-	use "L3MON4D3/LuaSnip" -- Snippets plugin
 
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
