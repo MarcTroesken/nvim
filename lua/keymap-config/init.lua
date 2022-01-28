@@ -25,3 +25,6 @@ keymap("n" ,"<leader>fb", ":Telescope buffers<cr>", opts)
 keymap("n" ,"<C-b>", ":NvimTreeToggle<cr>", opts)
 keymap("n" ,"<leader>r", ":NvimTreeRefresh<cr>", opts)
 keymap("n" ,"<leader>n", ":NvimTreeFindFile<cr>", opts)
+
+keymap("n", "<leader>g", "<cmd>lua _LAZYGIT_TOGGLE()<cr>", opts)
+keymap("n", "vs", ":vsplit<cr>", opts)

@@ -54,6 +54,7 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "numToStr/Comment.nvim"
   use "JoosepAlviste/nvim-ts-context-commentstring"
+  use "akinsho/toggleterm.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
