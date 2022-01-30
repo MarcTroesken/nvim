@@ -28,3 +28,8 @@ keymap("n" ,"<leader>n", ":NvimTreeFindFile<cr>", opts)
 
 keymap("n", "<leader>g", "<cmd>lua _LAZYGIT_TOGGLE()<cr>", opts)
 keymap("n", "vs", ":vsplit<cr>", opts)
+
+
+-- Bufferline --
+keymap('n', '<leader>,', ':BufferLineCycleNext<CR>', opts)
+keymap('n', '<leader>.', ':BufferLineCyclePrev<CR>', opts)

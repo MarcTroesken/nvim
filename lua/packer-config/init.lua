@@ -43,6 +43,7 @@ return packer.startup(function(use)
   -- Color Schemes
   use "EdenEast/nightfox.nvim"
   use "gruvbox-community/gruvbox"
+  use "joshdick/onedark.vim"
 
   -- Plugins
   use "wbthomason/packer.nvim" -- Have packer manage itself
@@ -55,6 +56,8 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim"
   use "JoosepAlviste/nvim-ts-context-commentstring"
   use "akinsho/toggleterm.nvim"
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
