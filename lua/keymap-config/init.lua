@@ -2,7 +2,9 @@ local opts = { noremap = true, silent = true }
 local keymap = vim.api.nvim_set_keymap
 
 --Remap space as leader key
+keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- Normal --
 -- Better window navigation
@@ -28,7 +30,7 @@ keymap("n" ,"<leader>n", ":NvimTreeFindFile<cr>", opts)
 
 keymap("n", "<leader>g", "<cmd>lua _LAZYGIT_TOGGLE()<cr>", opts)
 keymap("n", "vs", ":vsplit<cr>", opts)
-
+keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
 
 -- Bufferline --
 keymap('n', '<leader>,', ':BufferLineCycleNext<CR>', opts)
