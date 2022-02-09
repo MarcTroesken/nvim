@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use "akinsho/toggleterm.nvim"
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
+  use "hashivim/vim-terraform"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
