@@ -44,7 +44,7 @@ return packer.startup(function(use)
   use "EdenEast/nightfox.nvim"
   use "gruvbox-community/gruvbox"
   use "joshdick/onedark.vim"
-  use "sickill/vim-monokai"
+  use "phanviet/vim-monokai-pro"
 
   -- Plugins
   use "wbthomason/packer.nvim" -- Have packer manage itself
