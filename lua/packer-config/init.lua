@@ -60,6 +60,7 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "moll/vim-bbye"
   use "hashivim/vim-terraform"
+  use "mhinz/vim-startify"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
