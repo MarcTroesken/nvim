@@ -17,6 +17,7 @@ configs.setup({
     "hcl",
     "python",
     "vue",
+    "kotlin",
   },
 
 	sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)

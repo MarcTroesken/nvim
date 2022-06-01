@@ -40,7 +40,8 @@ local servers = {
   "intelephense",
   "tailwindcss",
   "terraformls",
-  "tflint"
+  "tflint",
+  "kotlin_language_server"
 }
 
 for _, name in pairs(servers) do
