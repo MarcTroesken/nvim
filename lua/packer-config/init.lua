@@ -56,8 +56,8 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "numToStr/Comment.nvim"
   use "JoosepAlviste/nvim-ts-context-commentstring"
-  use "akinsho/toggleterm.nvim"
-  use "akinsho/bufferline.nvim"
+  use {"akinsho/toggleterm.nvim", tag = 'v1.*'}
+  use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
   use "moll/vim-bbye"
   use "hashivim/vim-terraform"
   use "mhinz/vim-startify"
