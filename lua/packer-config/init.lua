@@ -71,6 +71,8 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "dart-lang/dart-vim-plugin" -- dart syntax highlight
+  use {'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim'}
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
