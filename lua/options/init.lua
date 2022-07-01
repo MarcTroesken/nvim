@@ -43,3 +43,7 @@ end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
+vim.cmd("hi Normal ctermbg=none")
+vim.cmd("hi NonText ctermbg=none")
+vim.cmd("hi Normal guibg=none")
+vim.cmd("hi NonText guibg=none")
