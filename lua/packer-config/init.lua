@@ -42,9 +42,10 @@ packer.init {
 return packer.startup(function(use)
   -- Color Schemes
   use "EdenEast/nightfox.nvim"
-  use "gruvbox-community/gruvbox"
-  use "joshdick/onedark.vim"
-  use "phanviet/vim-monokai-pro"
+  -- use "gruvbox-community/gruvbox"
+  -- use "joshdick/onedark.vim"
+  -- use "phanviet/vim-monokai-pro"
+  use "mhartington/oceanic-next"
 
   -- Plugins
   use "wbthomason/packer.nvim" -- Have packer manage itself
