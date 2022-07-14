@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/dart-vim-plugin",
     url = "https://github.com/dart-lang/dart-vim-plugin"
   },
+  dracula = {
+    loaded = true,
+    path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/dracula",
+    url = "https://github.com/dracula/vim"
+  },
   ["flutter-tools.nvim"] = {
     loaded = true,
     path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
@@ -123,11 +128,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -169,10 +169,10 @@ _G.packer_plugins = {
     path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["oceanic-next"] = {
+  ["onedark.vim"] = {
     loaded = true,
-    path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/oceanic-next",
-    url = "https://github.com/mhartington/oceanic-next"
+    path = "/Users/mtroesken/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
   },
   ["packer.nvim"] = {
     loaded = true,

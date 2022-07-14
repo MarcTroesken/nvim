@@ -41,11 +41,12 @@ packer.init {
 -- Install your plugins here
 return packer.startup(function(use)
   -- Color Schemes
-  use "EdenEast/nightfox.nvim"
+  -- use "EdenEast/nightfox.nvim"
   -- use "gruvbox-community/gruvbox"
-  -- use "joshdick/onedark.vim"
+  use "joshdick/onedark.vim"
   -- use "phanviet/vim-monokai-pro"
-  use "mhartington/oceanic-next"
+  -- use "mhartington/oceanic-next"
+  use {"dracula/vim", as = "dracula"}
 
   -- Plugins
   use "wbthomason/packer.nvim" -- Have packer manage itself
