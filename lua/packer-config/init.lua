@@ -63,6 +63,7 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use "hashivim/vim-terraform"
   use "mhinz/vim-startify"
+  use "lukas-reineke/indent-blankline.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
